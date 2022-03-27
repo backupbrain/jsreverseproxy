@@ -1,0 +1,16 @@
+{
+  "name": "js-reverse-proxy",
+  "version": "1.0.0",
+  "description": "Reverse proxy written in Javascript",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "backupbrain@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@webantic/nginx-config-parser": "^1.4.1",
+    "dotenv": "^16.0.0"
+  }
+}
