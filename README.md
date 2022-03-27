@@ -72,8 +72,8 @@ server {
         balance leastconn;
         keepalive_timeout 10;
         backends {
-            server 192.168.64.5:22;
-            server 192.168.64.5:22;
+            server 192.168.64.5:3306;
+            server 192.168.64.5:3306;
         }
     }
 }

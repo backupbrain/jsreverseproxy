@@ -1,7 +1,7 @@
 {
-  "name": "js-reverse-proxy",
+  "name": "jsreverseproxy",
   "version": "1.0.0",
-  "description": "Reverse proxy written in Javascript",
+  "description": "A Javascript CLI reverse proxy tool designed to run like HAProxy but with a config format similar to NGiNX",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
