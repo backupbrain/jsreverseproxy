@@ -1,7 +1,7 @@
 
 # JS-Reverse-Proxy
 
-This is a reverse proxy. It's designed to function like [HAProxy](https://www.haproxy.org/) but be configured like [NGiNX](https://www.nginx.com/).
+This is a reverse proxy. It's designed to function like [HAProxy](https://www.haproxy.org/) but be configured using an [NGiNX](https://www.nginx.com/)-like config file.
 
 It uses an NGiNX-like config to define ports that route to one or more other services.
 
