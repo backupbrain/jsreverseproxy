@@ -32,6 +32,12 @@ $ sudo mkdir /etc/jsreverseproxy
 $ cp -R jsreverseproxy.example.conf /etc/jsreverseproxy/jsreverseproxy.conf
 ```
 
+Then edit the config file to your needs. The example contains all possible parameters.
+
+```console
+$ sudo vi /etc/jsreverseproxy/jsreverseproxy.conf
+```
+
 ## Running
 
 To run, type this command from the project folder. This will load the default config file.
